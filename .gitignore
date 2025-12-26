@@ -1,12 +1,4 @@
  node_modules/
 .env
 
-# ignore everything
-*
-
-# allow only these
-!src/
-!src/**
-!.gitignore
-!package.json
-!package-lock.json
+ 

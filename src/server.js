@@ -1,9 +1,9 @@
-import express from "express";
+ import express from "express";
 import dotenv from "dotenv";
-import {initDB} from "../config/db.js";
-import rateLimiter from "../middleware/rateLimiter.js";
+import { initDB } from "./config/db.js";             // config folder src ke andar hai
+import rateLimiter from "./middleware/rateLimiter.js"; // middleware folder src ke andar hai
+import transactionsRoute from "./routes/transactionsRoute.js"; // routes folder src ke andar hai
 
-import transactionsRoute from "../routes/transactionsRoute.js";
 
 dotenv.config();
 
