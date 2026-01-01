@@ -17,3 +17,11 @@ export default ratelimit;
 //it is just for testing purposes
 // await redis.set("foo", "bar");
 // await redis.get("foo");
+// import { Redis } from '@upstash/redis'
+// const redis = new Redis({
+//   url: 'https://wondrous-gannet-55011.upstash.io',
+//   token: 'AdbjAAIncDFlOGE3NmYzYjJhZjU0NGRmYmE4NmU1OWY2YTE3OWY4OXAxNTUwMTE',
+// })
+
+// await redis.set("foo", "bar");
+// await redis.get("foo");
